@@ -1,0 +1,11 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
