@@ -1,10 +1,14 @@
 {
-  "name": "node-starter",
+  "name": "rest-json-server-countries",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json"
+    "start": "node server.js"
   },
+  "keywords": [
+    "json-server,heroku, node, REST API"
+  ],
+  "author": "onmarx",
   "dependencies": {
     "json-server": "^0.17.0"
   }
